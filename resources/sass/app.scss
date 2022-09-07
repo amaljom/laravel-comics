@@ -2,6 +2,11 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 header{
     .navbar{
@@ -73,17 +78,17 @@ main{
         list-style: none;
     }
     .comics-container{
-        height: 630px;
         background-color: rgb(24, 24, 24);
         color: white;
         padding-top: 55px;
+        height: 785px;
     }
     .wrapper-comics{
         display: flex;
         flex-wrap: wrap;
     }
     .button-loader{
-        padding: 10px;
+        padding: 1px;
         background-color: rgb(100, 100, 235);
         width: 15%;
         text-align: center;
@@ -91,9 +96,9 @@ main{
         margin-top: 43px;
     }
     .button-current-series{
-        padding: 10px;
+        padding: 1px;
         background-color: rgb(100, 100, 235);
-        width: 18%;
+        width: 20%;
         text-align: center;
         font-size: bolder;
         font-weight: bold;
@@ -191,10 +196,10 @@ footer{
         padding: 12px;
         border: solid 3px rgb(80, 80, 231);
         font-weight: bolder;
-        height: 50px;
     }
     .footerUL{
         display: flex;
+        align-items: center;
     }
     .footerUL li{
         padding: 10px
