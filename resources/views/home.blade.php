@@ -13,10 +13,12 @@
                 <a @click.prevent href="#"> <p>CURRENT SERIES</p> </a>
             </div>
            <div class="wrapper-comics">
-                <div class="width-img-wrapper">
-                    <img class="img-wrapper" :src="img" alt="">
-                    <p></p>
-                </div>
+                @foreach($comics as $comic)
+                    <div class="width-img-wrapper">
+                        <img class="img-wrapper" src="{{ $comic-> image }}" alt="">
+                        <p> {{ $comic->title }}</p>
+                    </div>
+                @endforeach
            </div>
            <div class="button-loader">
                <a @click.prevent href="#"><p>Load more</p></a> 

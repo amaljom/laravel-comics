@@ -10,7 +10,7 @@
 <body>
     
     @include('includes.header')
-    
+
     <main>
         @yield('main-content')
     </main>
