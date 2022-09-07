@@ -1,5 +1,5 @@
 @extends('layouts.main')
 
 @section('main-content')
-    <h2>ciao sono il main</h2>
+    <h1>ciaoo</h1>
 @endsection
