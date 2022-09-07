@@ -29,10 +29,12 @@
     <div class="content-azzurro ">
             <div class="posizionamento-elementi content-container content-container-images">
                 <ul>
-                    <li>
-                        <img :src="require(`../assets/buy${img}`)" alt="text">
-                        <p class="text-style">{{}}</p>
-                    </li>
+                    @for ($i = 0; $i < 5; $i++)
+                        <li>
+                            <img src="../assets/img/buy-comics-digital-comics.png" alt="text">
+                            <p class="text-style">elemento</p>
+                        </li>
+                    @endfor
                 </ul>
             </div>
         </div>
