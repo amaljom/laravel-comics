@@ -33,9 +33,115 @@ header img {
   height: 80px;
 }
 
+main main {
+  position: relative;
+  z-index: 50;
+}
+
+main .posizionamento-elementi {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main .black-band {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+main .content-azzurro {
+  height: 210px;
+  background-color: rgb(0, 178, 238);
+  display: flex;
+}
+
+main h1 {
+  color: white;
+}
+
+main .content-container {
+  display: flex;
+  align-items: center;
+}
+
+main .content-container-images {
+  justify-content: center;
+}
+
+main ul {
+  display: flex;
+  list-style: none;
+}
+
+main .comics-container {
+  height: 630px;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  padding-top: 55px;
+}
+
+main .wrapper-comics {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .button-loader {
+  padding: 10px;
+  background-color: rgb(100, 100, 235);
+  width: 15%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 43px;
+}
+
+main .button-current-series {
+  padding: 10px;
+  background-color: rgb(100, 100, 235);
+  width: 18%;
+  text-align: center;
+  font-size: bolder;
+  font-weight: bold;
+  font-size: 1.65rem;
+  position: relative;
+  bottom: 79px;
+}
+
+main .button-loader a,
+main .button-current-series a {
+  text-decoration: none;
+  color: white;
+}
+
+main .img-wrapper {
+  height: 180px;
+  width: 170px;
+  padding: 8px 0px;
+}
+
+main .width-img-wrapper {
+  width: 16.6666666667%;
+}
+
+main li {
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+main img {
+  width: 56px;
+  height: 62px;
+}
+
+main .text-style {
+  font-size: 17px;
+  color: white;
+  padding-left: 12px;
+}
+
 footer footer {
-  background-image: url(D: sercizi-booleanlaravel-comicspublic
- ssetsimg ooter-bg.jpg);
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
   background-repeat: no-repeat;
   background-size: cover;
 }

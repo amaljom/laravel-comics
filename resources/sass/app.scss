@@ -31,9 +31,102 @@ header{
     height: 80px;
     }
 }
+main{
+    main{
+        position: relative;
+        z-index: 50;
+    }
+    .posizionamento-elementi{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .black-band{
+        background-image: url(../../public/assets/img/jumbotron.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350px;    
+    }
+    .content-azzurro{
+        height: 210px;
+        background-color: rgb(0, 178, 238);
+        display:flex
+    }
+    h1{
+        color: white;
+    }
+    
+    .content-container{
+        display: flex;
+        align-items: center;
+    }
+    .content-container-images{
+        justify-content: center;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+    }
+    .comics-container{
+        height: 630px;
+        background-color: rgb(24, 24, 24);
+        color: white;
+        padding-top: 55px;
+    }
+    .wrapper-comics{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .button-loader{
+        padding: 10px;
+        background-color: rgb(100, 100, 235);
+        width: 15%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 43px;
+    }
+    .button-current-series{
+        padding: 10px;
+        background-color: rgb(100, 100, 235);
+        width: 18%;
+        text-align: center;
+        font-size: bolder;
+        font-weight: bold;
+        font-size: 1.65rem;
+        position: relative;
+        bottom: 79px;
+    }
+    .button-loader a, .button-current-series a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .img-wrapper{
+        height: 180px;
+        width: 170px;
+        padding: 8px 0px;
+    }
+    .width-img-wrapper{
+        width: calc( 100% / 6);
+    }
+    li{
+        padding: 0 30px;
+        display: flex;
+        align-items: center;
+    }
+    img{
+            width: 56px;
+            height: 62px;
+    }
+    .text-style{
+        font-size: 17px;
+        color: white;
+        padding-left: 12px;
+    }
+}
 footer{
     footer{
-        background-image: url(../assets/img/footer-bg.jpg);
+        background-image: url(../../public/assets/img/footer-bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
